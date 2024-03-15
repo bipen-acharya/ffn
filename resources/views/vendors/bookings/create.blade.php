@@ -1,0 +1,9 @@
+{{--@extends('templates.create')--}}
+@extends('vendors.template.create')
+@push('styles')
+@endpush
+@section('form_content')
+    @include('vendors.bookings.form')
+@endsection
+@push('scripts')
+@endpush
