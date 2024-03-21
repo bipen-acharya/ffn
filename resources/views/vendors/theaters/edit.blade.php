@@ -6,6 +6,7 @@
     @include('vendors.theaters.form')
 @endsection
 @push('scripts')
+
     <script>
         var loadFile = function(event) {
             var image = document.getElementById('output');
